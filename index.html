@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />    <title>Secondary → Primary Color Finder</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <div>
+                <h1>Secondary → Primary Color Finder</h1>
+                <p class="lead">Click a secondary color to see the primary colors that make it.</p>
+            </div>
+        </header>
+
+        <section class="panel">
+            <strong>Choose a secondary color</strong>
+            <div class="secondary-list" id="secondaryList"></div>
+        </section>        <aside class="panel" id="detailPanel">
+            <strong id="pickedTitle">Select a secondary color</strong>
+
+            <div class="detail">
+                <div class="primary-row" id="primaries"></div>
+                <small id="blendInfo"></small>
+
+                <button id="clearBtn" class="clear-btn">Clear</button>
+            </div>
+        </aside>
+    </div>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
